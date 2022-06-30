@@ -1,0 +1,147 @@
+/* Start Global Rules */
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Tahoma, Arial;
+}
+/* End Global Rules */
+
+/* Start Application */
+.app {
+    width: 700px;
+    margin: 100px auto 0;
+    text-align: center;
+}
+
+/* Start Info */
+.app .info{
+    margin: 80px 0;
+}
+.app .info h2 {
+    margin: 0 0 20px;
+    color: rgb(111, 86, 224);
+}
+.app .info form > div {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 50px;
+}
+.app .info form > div label {
+    flex-basis: 40%;
+    display: block;
+    text-align: right;
+    font-size: 18px;
+    color: rgb(51, 60, 160);
+}
+.app .info form > div input {
+    flex-basis: 40%;
+    padding: 5px 10px;
+    display: block;
+    text-align: center;
+    outline: none;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+}
+.app .info form .reset {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+/* Start Info */
+
+/* Start Brand */
+.app .brand {
+    margin: 80px 0;
+}
+.app .brand h2 {
+    margin: 0 0 20px;
+    color: rgb(111, 86, 224);
+    font-size: 20px;
+}
+.app .brand button {
+    padding: 10px 30px;
+    background-color: white;
+    color: #555;
+    font-style: italic;
+    border: 2px solid #DDD;
+    border-radius: 4px;
+    box-shadow: 0px 6px 14px 0px rgb(0 0 0 / 30%);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.app .brand button:hover {
+    background-color: #555;
+    color: white;
+    border-color:#555;
+}
+/* End Brand */
+
+/* Start Results */
+.app .results {
+    margin: 80px 0;
+    display: flex;
+    gap: 30px;
+}
+.app .results .data {
+    flex-basis: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 4px solid #DDD;
+    border-radius: 10px;
+}
+.app .results .data img {
+    flex-basis: 30%;
+    max-width: 200px;
+}
+.app .results .data .text {
+    flex-basis: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.app .results .data .text > span {
+    display: block;
+    margin-bottom: 10px;
+    color: #666;
+}
+.app .results .data .text > span .buisness {
+    text-transform: uppercase;
+}
+.app .results .data .text > span:last-of-type {
+    font-weight: bold;
+    color: #555;
+}
+.app .results .bars {
+    flex-basis: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.app .results .bars .bar {
+    position: relative;
+    height: 20px;
+    margin-bottom: 10px;
+}
+.app .results .bars p {
+    min-height: 19px;
+    margin: 0 0 10px;
+    display: block;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+}
+/* End Results */
+
+/* End Application */
